@@ -69,3 +69,12 @@ void oledkit_render_info_user(void) {
     keyball_oled_render_layerinfo();
 }
 #endif
+
+// combo setting
+#ifdef COMBO_ENABLE
+const uint16_t PROGMEM my_esc[] = {KC_Q, KC_W, COMBO_END};
+
+combo_t key_combos[] = {
+    COMBO(my_esc, KC_ESC),
+};
+#endif
