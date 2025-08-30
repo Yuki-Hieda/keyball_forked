@@ -72,9 +72,30 @@ void oledkit_render_info_user(void) {
 
 // combo setting
 #ifdef COMBO_ENABLE
-const uint16_t PROGMEM my_esc[] = {KC_Q, KC_W, COMBO_END};
+
+// ESC
+const uint16_t PROGMEM my_esc[] = {KC_A, KC_S, COMBO_END};
+// UP Arrow
+const uint16_t PROGMEM my_up[] = {KC_I, KC_O, COMBO_END};
+// Left Arrow
+const uint16_t PROGMEM my_left[] = {KC_J, KC_K, COMBO_END};
+// Right Arrow
+const uint16_t PROGMEM my_right[] = {KC_K, KC_O, COMBO_END};
+// Down Arrow
+const uint16_t PROGMEM my_down[] = {KC_COMM, KC_DOT, COMBO_END};
+// Home
+const uint16_t PROGMEM my_home[] = {KC_O, KC_P, COMBO_END};
+// End
+const uint16_t PROGMEM my_end[] = {KC_L, KC_SCLN, COMBO_END};
 
 combo_t key_combos[] = {
     COMBO(my_esc, KC_ESC),
+    COMBO(my_up, KC_UP),
+    COMBO(my_left, KC_LEFT),
+    COMBO(my_right, KC_RIGHT),
+    COMBO(my_down, KC_DOWN),
+    COMBO(my_home, KC_DOWN),
+    COMBO(my_end, KC_DOWN),
+    
 };
 #endif
