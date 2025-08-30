@@ -94,8 +94,8 @@ combo_t key_combos[] = {
     COMBO(my_left, KC_LEFT),
     COMBO(my_right, KC_RIGHT),
     COMBO(my_down, KC_DOWN),
-    COMBO(my_home, KC_DOWN),
-    COMBO(my_end, KC_DOWN),
+    COMBO(my_home, KC_HOME),
+    COMBO(my_end, KC_END),
     
 };
 #endif
