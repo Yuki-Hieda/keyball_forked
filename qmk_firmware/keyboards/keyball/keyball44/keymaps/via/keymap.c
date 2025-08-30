@@ -84,9 +84,9 @@ const uint16_t PROGMEM my_right[] = {KC_K, KC_L, COMBO_END};
 // Down Arrow
 const uint16_t PROGMEM my_down[] = {KC_COMM, KC_DOT, COMBO_END};
 // Home
-const uint16_t PROGMEM my_home[] = {KC_O, KC_P, COMBO_END};
+// const uint16_t PROGMEM my_home[] = {KC_O, KC_P, COMBO_END}; // HOMEは動くがコンボキーとしては不要と判断
 // End
-const uint16_t PROGMEM my_end[] = {KC_L, KC_MINS, COMBO_END};
+// const uint16_t PROGMEM my_end[] = {KC_L, KC_MINS, COMBO_END}; // なぜか動かないからあきらめ KC_MINSがあやしそうな気はする
 
 combo_t key_combos[] = {
     COMBO(my_esc, KC_ESC),
@@ -94,8 +94,8 @@ combo_t key_combos[] = {
     COMBO(my_left, KC_LEFT),
     COMBO(my_right, KC_RIGHT),
     COMBO(my_down, KC_DOWN),
-    COMBO(my_home, KC_HOME),
-    COMBO(my_end, KC_END),
+    // COMBO(my_home, KC_HOME),
+    // COMBO(my_end, KC_END),
     
 };
 #endif
