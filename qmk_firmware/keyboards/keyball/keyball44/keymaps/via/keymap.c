@@ -80,13 +80,13 @@ const uint16_t PROGMEM my_up[] = {KC_I, KC_O, COMBO_END};
 // Left Arrow
 const uint16_t PROGMEM my_left[] = {KC_J, KC_K, COMBO_END};
 // Right Arrow
-const uint16_t PROGMEM my_right[] = {KC_K, KC_O, COMBO_END};
+const uint16_t PROGMEM my_right[] = {KC_K, KC_L, COMBO_END};
 // Down Arrow
 const uint16_t PROGMEM my_down[] = {KC_COMM, KC_DOT, COMBO_END};
 // Home
 const uint16_t PROGMEM my_home[] = {KC_O, KC_P, COMBO_END};
 // End
-const uint16_t PROGMEM my_end[] = {KC_L, KC_SCLN, COMBO_END};
+const uint16_t PROGMEM my_end[] = {KC_L, KC_MINS, COMBO_END};
 
 combo_t key_combos[] = {
     COMBO(my_esc, KC_ESC),
