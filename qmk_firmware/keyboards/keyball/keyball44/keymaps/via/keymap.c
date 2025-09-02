@@ -96,6 +96,5 @@ combo_t key_combos[] = {
     COMBO(my_down, KC_DOWN),
     // COMBO(my_home, KC_HOME),
     // COMBO(my_end, KC_END),
-    
 };
 #endif
